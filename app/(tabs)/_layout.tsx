@@ -35,6 +35,20 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="grocery"
+        options={{
+          title: "Grocery",
+          tabBarIcon: ({ color }) => (
+            <IconSymbol
+              size={28}
+              name="cart.badge.clock.fill"
+              color={color}
+              testId="grocery-button"
+            />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
