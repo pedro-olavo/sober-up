@@ -4,7 +4,7 @@ describe("Grocery", () => {
   });
 
   beforeEach(async () => {
-    await device.reloadReactNative();
+    // await device.reloadReactNative();
   });
 
   test("Text", async () => {
